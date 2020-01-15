@@ -1,9 +1,5 @@
 # Build a Calculator
 
-## Skills
-
-TODO
-
 ## Directions
 
 This exercise will help you understand how to use JavaScript functions and algorithms. You will also work with the DOM and respond to user input.
