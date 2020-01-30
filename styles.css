@@ -1,0 +1,50 @@
+        * {
+            display: center;
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .main {
+            width: 327px;
+            height: 250px;
+            background-color: skyblue;
+            border: 1px solid black;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translateX(-50%)translateY(-50%);
+        }
+        
+        .display_bar {
+            width: 200px;
+            height: 20px;
+            background-color: white;
+        }
+        
+        .button {
+            width: 75px;
+            height: 50px;
+            font-size: 25px;
+            margin: 2px;
+            cursor: pointer;
+            border: none;
+            border: 1px solid black;
+        }
+        
+        .textview {
+            width: 305px;
+            margin: 5px;
+            font-size: 25px;
+            padding: 5px;
+            border: none;
+        }
+        
+        .number {
+            background-color: white;
+            font-weight: bold;
+        }
+        
+        .symbol {
+            background-color: #fbfbfb;
+        }
