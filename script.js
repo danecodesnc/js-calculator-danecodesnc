@@ -80,7 +80,6 @@ nine_button.addEventListener("click", function() {
     display_bar.append(value);
 })
 
-
 // Equals sign to display on display when it is clicked 
 
 let equalsButton = document.querySelector(".equals")
@@ -92,7 +91,16 @@ equalsButton.addEventListener("click", function() {
 
 // plus sign to display on display when it is clicked 
 
-let equalsButton = document.querySelector(".equals")
+let plus_Button = document.querySelector(".plus")
+equalsButton.addEventListener("click", function() {
+    let toEvaluate = screen.innerText;
+    evaluation = eval(toEvaluate);
+    screen.innerHTML = evaluation;
+});
+
+// minus sign to display on display when it is clicked 
+
+let minus_Button = document.querySelector(".minus")
 equalsButton.addEventListener("click", function() {
     let toEvaluate = screen.innerText;
     evaluation = eval(toEvaluate);
